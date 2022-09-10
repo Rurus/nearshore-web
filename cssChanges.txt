@@ -1,0 +1,11 @@
+Original:
+
+#32c36c -> Botón: bg,border
+#51cc82 -> Botón: bg:hover
+#47c97b -> Botón: border:hover
+
+Nuevo
+
+#EF0753 -> Botón: bg,border
+#f23875 -> Botón: bg:hover
+#f01f64 -> Botón: border:hover
