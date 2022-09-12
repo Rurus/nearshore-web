@@ -207,7 +207,6 @@
     height: 30px;
     margin: 5px 0;
     background: var(--primary);
-    /* #FFFFFF; */
     box-shadow: 0 0 30px rgba(255, 255, 255, .9);
     border-radius: 45px;
     transition: .5s;
