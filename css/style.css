@@ -7,7 +7,7 @@
 }
 
 .logo {
-    width: 305px;
+    width: 240px;
     height: 38px;
 }
 
@@ -130,7 +130,7 @@
     }
 
     .logo {
-        width: 265px;
+        width: 160px;
         height: 30px;
     }
 
@@ -405,15 +405,15 @@
 
 
 /*** Team ***/
-.team-item {
+.devtype-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
 
-.team-item img {
+.devtype-item img {
     border-radius: 8px 60px 0 0;
 }
 
-.team-item .team-social {
+.devtype-item .team-social {
     display: flex;
     flex-direction: column;
     align-items: center;
