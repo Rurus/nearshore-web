@@ -160,14 +160,14 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-details {
-  width: 85%;
+  width: 100%;
   float: left;
-  text-align: left;
-  line-height: 1.1em;
+  text-align: center;
+  line-height: 1.2em;
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
   line-height: 1em;
 }
@@ -180,11 +180,12 @@ html.lb-disable-scrolling {
   display: block;
   clear: left;
   padding-bottom: 1em;
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: bold;
   color: #999999;
 }
 
-.lb-data .lb-close {
+.lb-close {
   display: block;
   float: right;
   width: 30px;
@@ -200,7 +201,12 @@ html.lb-disable-scrolling {
   transition: opacity 0.2s;
 }
 
-.lb-data .lb-close:hover {
+.lb-closeContainer {
+  margin: 0 auto;
+  height: 30px;
+}
+
+.lb-close:hover {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
