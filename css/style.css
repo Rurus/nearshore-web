@@ -312,7 +312,7 @@
 
 
 /*** Project Portfolio ***/
-#portfolio-filters li {
+#portfolio-flters li {
     display: inline-block;
     font-weight: 500;
     color: var(--dark);
@@ -321,8 +321,8 @@
     border-bottom: 2px solid transparent;
 }
 
-#portfolio-filters li:hover,
-#portfolio-filters li.active {
+#portfolio-flters li:hover,
+#portfolio-flters li.active {
     color: var(--primary);
     border-color: var(--primary);
 }
