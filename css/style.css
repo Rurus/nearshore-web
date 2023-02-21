@@ -23,15 +23,6 @@
     font-weight: 900 !important;
 }
 
-.back-to-top {
-    position: fixed;
-    display: none;
-    right: 45px;
-    bottom: 45px;
-    z-index: 99;
-}
-
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -137,6 +128,19 @@
     .navbar .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
+    .whatsapp_logo2{
+        display: flex;
+        margin-right: 100px;
+    }
+
+    .flex_end{
+        margin-left: auto;
+        
+    }
+
+    .whatsapp_logo{
+        display: none;
+    }
 }
 
 @media (min-width: 992px) {
@@ -156,7 +160,26 @@
         transition: .5s;
         opacity: 1;
     }
+    .whatsapp_logo2{
+        display: none;
+    }
+    .whatsapp_logo{
+        display: block;
+    }
 }
+    .whatsapp_logo2{
+        margin-top: 2px;
+        width: 40px;
+        height: 40px;
+        }
+
+    .whatsapp_logo{
+        margin-top: 2px;
+        margin-right: 28px;
+        width: 40px;
+        height: 40px;
+    }
+    
 
 
 /*** Header ***/
