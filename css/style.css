@@ -508,6 +508,11 @@
     height: 100px;
 }
 
+.testimonial-carousel .testimonial-rect-img img {
+    width: 260px;
+    height: 100px;
+}
+
 .testimonial-carousel .testimonial-img .btn-square {
     position: absolute;
     bottom: -19px;
