@@ -128,17 +128,18 @@
     .navbar .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
-    .whatsapp_logo2{
+
+    .whatsapp_logo2 {
         display: flex;
         margin-right: 100px;
     }
 
-    .flex_end{
+    .flex_end {
         margin-left: auto;
-        
+
     }
 
-    .whatsapp_logo{
+    .whatsapp_logo {
         display: none;
     }
 }
@@ -160,27 +161,39 @@
         transition: .5s;
         opacity: 1;
     }
-    .whatsapp_logo2{
+
+    .whatsapp_logo2 {
         display: none;
     }
-    .whatsapp_logo{
+
+    .whatsapp_logo {
         display: block;
     }
 }
-    .whatsapp_logo2{
-        margin-top: 2px;
-        width: 40px;
-        height: 40px;
-        }
 
-    .whatsapp_logo{
-        margin-top: 2px;
-        margin-right: 28px;
-        width: 40px;
-        height: 40px;
-    }
-    
+.whatsapp_logo2 {
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+}
 
+.whatsapp_logo {
+    margin-top: 2px;
+    margin-right: 28px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/*** Sections ***/
+#features_section,
+#projects_section,
+#developers_section,
+#experience_section,
+#footer {
+    scroll-margin-top: 75px;
+    /*Consider navbar's height as it's position is fixed on scroll*/
+}
 
 /*** Header ***/
 .owl-carousel-inner {
@@ -366,7 +379,7 @@
 }
 
 .portfolio-item:hover .portfolio-img::after {
-    background:  rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .6);
     backdrop-filter: blur(5px);
 }
 
