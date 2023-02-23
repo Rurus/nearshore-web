@@ -98,12 +98,23 @@
 })(jQuery);
 
 const navLinks = document.querySelectorAll('.nav-item');
+const menuToggle = document.getElementById('navbarCollapse');
+const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
 navLinks.forEach((link) => {
     link.addEventListener('click', (e) => {
         navLinks.forEach((link) => {
             link.classList.remove('active');
         })
-        e.target.classList.add('active');
+        e.target.classList.add('active'); //Activate nav-link
+
+        /* toggle collapsible menu if nav-link clicked */
+        if (menuToggle.classList.contains('show')) {
+            setTimeout(() => {
+                bsCollapse.toggle();
+            }, 600);
+        }
     }
     );
 });
+
+// navLinks.forEach((l) => { l.addEventListener('click', function () { // avoid flickering on desktop if (menuToggle.classList.contains('show')) { bsCollapse.toggle(); } }); }); 
