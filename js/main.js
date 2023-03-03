@@ -109,12 +109,8 @@ navLinks.forEach((link) => {
 
         /* toggle collapsible menu if nav-link clicked */
         if (menuToggle.classList.contains('show')) {
-            setTimeout(() => {
-                bsCollapse.toggle();
-            }, 600);
+            bsCollapse.toggle();
         }
     }
     );
 });
-
-// navLinks.forEach((l) => { l.addEventListener('click', function () { // avoid flickering on desktop if (menuToggle.classList.contains('show')) { bsCollapse.toggle(); } }); }); 
