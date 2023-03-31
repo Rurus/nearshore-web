@@ -79,6 +79,15 @@
     background-color: #200249;
 }
 
+#navbarCollapse.show .navbar-nav {
+    width: 100%;
+    position: absolute;
+}
+
+.navbar-nav {
+    background-color: #200249;
+}
+
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
